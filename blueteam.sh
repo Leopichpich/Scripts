@@ -31,6 +31,8 @@ mv remnux /usr/local/bin
 
 apt install -y gnupg
 
+python3 -m pip install importlib_metadata==4.13.0
+
 remnux install --mode=addon
 
 
@@ -38,3 +40,5 @@ remnux upgrade
 sift upgrade
 
 rm -rf blueteam_install
+
+reboot
