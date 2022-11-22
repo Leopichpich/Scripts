@@ -21,7 +21,7 @@ apt-get update
 sift install --mode=packages-only
 
 
-sleep(10)
+sleep 10
 
 wget https://REMnux.org/remnux-cli
 
@@ -36,3 +36,5 @@ remnux install --mode=addon
 
 remnux upgrade
 sift upgrade
+
+rm -rf blueteam_install
